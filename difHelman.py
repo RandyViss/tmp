@@ -17,7 +17,7 @@ B = (g**b) % N
 print("Bob sends: " , B)
 
 print("\n--------------------\n")
-print("Calculated shared secret: " )
+print("Calculated shared secrets: " )
 
 # alice s = B^a mod N
 sA = (B ** a) % N
